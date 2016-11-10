@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2034A6041DD2E49800F81C5F /* test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 2034A6031DD2E49800F81C5F /* test1.m */; };
 		204D3EBF1DD2E1D100D25869 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 204D3EBE1DD2E1D100D25869 /* main.m */; };
 		204D3EC21DD2E1D100D25869 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 204D3EC11DD2E1D100D25869 /* AppDelegate.m */; };
 		204D3EC51DD2E1D100D25869 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 204D3EC41DD2E1D100D25869 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2034A6021DD2E49800F81C5F /* test1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test1.h; sourceTree = "<group>"; };
+		2034A6031DD2E49800F81C5F /* test1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test1.m; sourceTree = "<group>"; };
 		204D3EBA1DD2E1D100D25869 /* GitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		204D3EBE1DD2E1D100D25869 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		204D3EC01DD2E1D100D25869 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				204D3EC11DD2E1D100D25869 /* AppDelegate.m */,
 				204D3EC31DD2E1D100D25869 /* ViewController.h */,
 				204D3EC41DD2E1D100D25869 /* ViewController.m */,
+				2034A6021DD2E49800F81C5F /* test1.h */,
+				2034A6031DD2E49800F81C5F /* test1.m */,
 				204D3EC61DD2E1D100D25869 /* Main.storyboard */,
 				204D3EC91DD2E1D100D25869 /* Assets.xcassets */,
 				204D3ECB1DD2E1D100D25869 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				204D3EC51DD2E1D100D25869 /* ViewController.m in Sources */,
 				204D3EC21DD2E1D100D25869 /* AppDelegate.m in Sources */,
 				204D3EBF1DD2E1D100D25869 /* main.m in Sources */,
+				2034A6041DD2E49800F81C5F /* test1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +306,7 @@
 				204D3ED31DD2E1D100D25869 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
